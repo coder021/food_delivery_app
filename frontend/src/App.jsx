@@ -6,6 +6,7 @@ import Cart from './pages/Cart/Cart.jsx'
 import Home from './pages/Home/Home.jsx'
 import PlaceOrder  from './pages/PlaceOrder/PlaceOrder.jsx'
 import StoreContextProvider from './context/StoreContext.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/order" element={<PlaceOrder/>} />
       </Routes>
     </div>
+    <Footer />
     </StoreContextProvider>
     
   )
