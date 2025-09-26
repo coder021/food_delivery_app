@@ -26,8 +26,8 @@ Follow these steps to run the app locally:
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/coder021/food_delivery_app.git
+cd https://github.com/coder021/food_delivery_app.git
 npm install
 npm run dev
 http://localhost:5173/
