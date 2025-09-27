@@ -85,12 +85,12 @@
     border-radius: 4px;
 }
 
-.promo-code-input input{
-    background: transparent;
+ .promo-code-input input{
+    background: transparent;    
     border: none;
     outline: none;
     padding-left: 10px;
-}
+} 
 
 .promo-code-input button{
     width: max(10vw,150px);
